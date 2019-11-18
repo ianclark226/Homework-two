@@ -1,0 +1,9 @@
+.navbar  {
+    background-color: #4aaaa5; 
+}
+
+.card .card-body .card-text{
+   
+    top: 75%;
+    left: 50%;
+}
