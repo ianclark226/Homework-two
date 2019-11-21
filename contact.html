@@ -6,40 +6,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 ​
-  <title>About Me</title>
+  <title>Contact</title>
 ​
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-​<link href ="assets/css/style.css" type="text/css" rel="stylesheet">
+​<link href ="style.css" type="text/css" rel="stylesheet">
+
+<body style = "background: url(https://anttile.com/wp-content/uploads/2017/01/TR2-GW_1.jpg);
+       background-size: 100%;">
 </head>
 ​
 <body>
   <!-- Start Nav -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Navbar</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+  <nav class="navbar navbar-expand-md bg-dark navbar dark">
+    <a class="navbar-brand" href="#">Ian Clark</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNavbar">
+
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right">
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="index.html">About Me</a>
+        
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-          <div class="container">
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="page-header">
-        </li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            
+            </li>
+        
       </ul>
     </div>
-</div>
-</div>
-</div>
-</div>
   </nav>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section title">Contact Me</h2>
+                    <p class="section-description">_____ _____ _____ _____ _____</p>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <form id="contact" method="post" class="form" role="form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email" type="text" required /> 
+                            </div>
+                        </div>
+                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <button class="btn btn-primary" type="submit">Sumbit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
