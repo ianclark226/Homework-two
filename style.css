@@ -1,9 +1,39 @@
-.navbar  {
+/*.navbar   {
     background-color: #4aaaa5; 
+}
+.navbar-expand-md {
+    background-color: #4aaaa5;
+}
+
+
+.navbar {
+    background-color: #4aaaa5;
+}
+
+.dark {
+    background-color: #4aaaa5;
 }
 
 .card .card-body .card-text{
    
     top: 75%;
     left: 50%;
-}
+}*/
+
+
+
+.fcontainer {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+  
+  .footer {
+    
+    position: absolute;
+    bottom: 0%;
+    height: 60p;
+    width: 100%;
+    
+  }
+  

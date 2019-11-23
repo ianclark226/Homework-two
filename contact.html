@@ -45,31 +45,37 @@
   </nav>
 
     <div class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="section title">Contact Me</h2>
-                    <p class="section-description">_____ _____ _____ _____ _____</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="section title">Contact Me</h2>
+            <p class="section-description">_____ _____ _____ _____ _____</p>
+          </div>
+          <div class="col-md-12 text-center">
+            <form id="contact" method="post" class="form" role="form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
                 </div>
-                <div class="col-md-8 col-md-offset-2">
-                    <form id="contact" method="post" class="form" role="form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
-                            </div>
-                            <div class="col-md-6 form-group">
-                                    <input class="form-control" id="email" name="email" placeholder="Email" type="text" required /> 
-                            </div>
-                        </div>
-                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <button class="btn btn-primary" type="submit">Sumbit</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="text" required />
                 </div>
-            </div>
+              
+              <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+              <br><br><br><br>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
+    <footer class="footer mt-auto py-3 bg-dark navbar dark text-center">
+        <div class="fcontainer">
+          <span class="text-muted">Copyright@</span>
+        </div>
+      </footer>

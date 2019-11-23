@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 ​<link href ="style.css" type="text/css" rel="stylesheet">
 
+
 <body style = "background: url(https://anttile.com/wp-content/uploads/2017/01/TR2-GW_1.jpg);
        background-size: 100%;">
 </head>
@@ -44,39 +45,106 @@
     </div>
   </nav>
 
- <section class="portfolio-section">
-     <div class="container">
-         <div class="row">
-             <div class="col-12 text-center">
-                 <h3>Portfolio</h3>
-            
-             </div>
-         </div>
-         <div class="row">
-             <div class="col-md-4 text-center">
-                 <img class="img-fluid p-2 p-sm-3" src="Assets/Images/hangman.jpeg" alt="">
-             </div>
-             </div>
-             <div class="row">
-                    <div class="col-md-4 text-center">
-                        <img class="img-fluid p-2 p-sm-3" src="Assets/Images/rpg game.jpg" alt="">
-                    </div>
-                    
-            <div class="row">
-                            <div class="col-md-4 text-center">
-                                <img class="img-fluid p-2 p-sm-3" src="Assets/Images/rutgers.jpg" alt="">
+  <style>
+      .textOverImage{
+          position:relative;
+      
+          width:290px;
+          height:190px;
+          float:left;
+          margin:4px;
+          background-size:100%;
+          background-position:center;
+          transition:0.5s;
+      }
 
-                            </div>
-             <div class="row">
-                                    <div class="col-md-4 text-center">
-                                        <img class="img-fluid p-2 p-sm-3" src="Assets/Images/trivia game.jpg" alt="">
-                                    </div>
-             <div class="row">
-                                           <div class="col-md-4 text-center">
-                                               <img class="img-fluid p-2 p-sm-3" src="Assets/Images/rock paper scissors.png" alt="">
-                                           </div>
-                                          
+      .textOverImage:hover{
+          background-size:110%;
+      }
 
+      .textOverImage:after{
+          position:absolute;
+          top:100%;
+          bottom:0;
+          left:0;
+          right:0;
+          white-space:wrap;
+          overflow:hidden;
+          background-color:rgba(0,0,0,0.6);
+          color:#fff;
+          padding:0px;
+          opacity:0;
+          content:attr(data-text);
+          transition:0.5s;
+      }
+
+      .textOverImage:hover:after{
+          opacity:1;
+          top:0;
+          
+          padding:8px;
+      }
+      .textOverImage:first-line{
+          color:white;
+          font-weight:bold;
+          font-size:1.5em;
+          
+
+      }
+      
+
+
+          </style>
+
+<section class="portfolio-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3>Portfolio</h3>
+      </div>
+      
+      <div class="col-md-4 text-center">
+          <div class="textOverImage"
+           style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSSbxEzeIp3-KiD7xhnweLGBQ8XB2eXbDgOuyCLNB7O519WBM9qQ&s)"
+
+          data-text="Hangman">
+          </div>
+         
+    </div>
+      <div class="col-md-4 text-center">
+          <div class="textOverImage"
+          style="background-image:url(https://cdn.windowsreport.com/wp-content/uploads/2014/03/role-playing-games.jpg)"
+
+         data-text="RPG Game">
          </div>
-     </div>
- </section>
+      </div>
+      <div class="col-md-4 text-center">
+          <div class="textOverImage"
+          style="background-image:url(https://shivjisakina.github.io/Basic-Portfolio/assets/images/technics-q-c-640-480-7.jpg)"
+
+         data-text="Rutgers">
+         </div>
+      </div>
+      <div class="col-md-4 text-center">
+          <div class="textOverImage"
+          style="background-image:url(https://i.ytimg.com/vi/uiiu-Pa02Ls/maxresdefault.jpg)"
+
+         data-text="Trivia Game">
+         </div>
+      </div>
+      <div class="col-md-4 text-center">
+          <div class="textOverImage"
+          style="background-image:url(https://images-na.ssl-images-amazon.com/images/I/61QkvmvEdVL.png)"
+
+         data-text="Rock,Papper,Scissors">
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer mt-auto py-3 text-center bg-dark navbar dark">
+    <div class="fcontainer">
+      <span class="text-muted">Copyright@</span>
+    </div>
+  </footer>
