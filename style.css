@@ -23,6 +23,7 @@
 
 
 .fcontainer {
+    margin: 0 auto;
     width: auto;
     max-width: 680px;
     padding: 0 15px;
@@ -34,6 +35,6 @@
     bottom: 0%;
     height: 60p;
     width: 100%;
-    
+    text-align: center;
   }
   
