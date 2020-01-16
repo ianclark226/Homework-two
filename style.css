@@ -1,13 +1,15 @@
 .navbar   {
     height: 70px;
     bottom: 30px;
+    background-color: #5E35A6 !important;
+    
 }
-/*.navbar-expand-md {
-    background-color: #4aaaa5;
+.navbar-brand {
+    color: #4aaaa5;
 }
 
 
-.navbar {
+/*.navbar {
     background-color: #4aaaa5;
 }
 
