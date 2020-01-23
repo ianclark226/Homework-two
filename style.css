@@ -102,5 +102,13 @@
     background-size:100%;
     background-position:center;
     transition:0.5s;
+    padding: 10px;
+}
+
+.img-fluid2 {
+
+    width: 290px;
+    height:190px;
+    padding: 10px;
 }
   
