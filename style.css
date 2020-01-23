@@ -4,9 +4,8 @@
     background-color: #5E35A6 !important;
     
 }
-.navbar-brand {
-    color: #4aaaa5;
-}
+
+
 
 .section2 {
     font-size: 30px;
@@ -86,7 +85,7 @@
   .footer {
     
     position: absolute;
-    bottom: 0%;
+    bottom: -20%;
     height: 60p;
     width: 100%;
     text-align: center;
@@ -110,5 +109,13 @@
     width: 290px;
     height:190px;
     padding: 10px;
+}
+
+#repo{
+    margin-left: 25px;
+}
+
+.btn .btn-primary {
+    color: purple !important;
 }
   
