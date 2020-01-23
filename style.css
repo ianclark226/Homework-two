@@ -8,6 +8,11 @@
     color: #4aaaa5;
 }
 
+.section2 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
 
 /*.navbar {
     background-color: #4aaaa5;
@@ -86,4 +91,16 @@
     width: 100%;
     text-align: center;
   }
+
+  .textOverImage2{
+    position:relative;
+
+    width:290px;
+    height:190px;
+    float:left;
+    margin:4px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+}
   
