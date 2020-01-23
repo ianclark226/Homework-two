@@ -15,6 +15,7 @@
 
 h3 {
     color: white;
+    font-size: 50px;
 }
 
 .section-description{
@@ -143,5 +144,12 @@ h3 {
 }
 .col-9 {
     color: white;
+    font-size: 20px;
+}
+
+.section-description2 {
+    color: white;
+    font: bold;
+    font-size: 20px;
 }
 
