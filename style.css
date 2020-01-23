@@ -10,6 +10,15 @@
 .section2 {
     font-size: 30px;
     margin-left: 40px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.section-description{
+    color: white;
 }
 
 
@@ -85,7 +94,7 @@
   .footer {
     
     position: absolute;
-    bottom: -20%;
+    bottom: -30%;
     height: 60p;
     width: 100%;
     text-align: center;
@@ -115,7 +124,24 @@
     margin-left: 25px;
 }
 
-.btn .btn-primary {
-    color: purple !important;
+.btn-primary {
+    background-color:  purple !important;
 }
   
+.title2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.title{
+    color: white;
+}
+
+.display-4 {
+    color: white;
+}
+.col-9 {
+    color: white;
+}
+
